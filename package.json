@@ -1,0 +1,39 @@
+{
+    "name": "markdown-reformer",
+    "version": "0.0.1",
+    "description": "这是一个markdown文本改造器，你可以将markdown改造为html，甚至更多其他你喜欢的文本。This is a Markdown text reformer, you can transform markdown into html, and even more of your favorite text.",
+    "author": "Yesifang",
+    "license": "MIT",
+    "private": false,
+    "main": "./dist/markdown-reformer.js",
+    "homepage": "https://yesifang.com",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:SuperYesifang/markdown-reformer.git"
+    },
+    "keywords": [
+        "npm",
+        "markdown",
+        "markdown2html",
+        "md",
+        "transform"
+    ],
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.5",
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.8.1"
+    }
+}
